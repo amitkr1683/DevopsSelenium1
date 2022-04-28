@@ -1,12 +1,11 @@
 package mavenSeleniumProject1;
-
+import org.testng.annotations.Test; 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 public class ReadDataFromFile {
-
-	public static void main(String[] args) throws Exception {
+    @Test
+    public void main() throws Exception {
 
 		FileInputStream fis = new FileInputStream("./configFile/configData.properties");
 

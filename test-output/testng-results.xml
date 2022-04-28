@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-27T15:22:40 IST" name="Default suite" finished-at="2022-04-27T15:23:21 IST" duration-ms="40916">
+  <suite started-at="2022-04-28T16:52:12 IST" name="Suite" finished-at="2022-04-28T16:53:00 IST" duration-ms="48330">
     <groups>
     </groups>
-    <test started-at="2022-04-27T15:22:40 IST" name="Default test" finished-at="2022-04-27T15:23:21 IST" duration-ms="40916">
+    <test started-at="2022-04-28T16:52:12 IST" name="Test" finished-at="2022-04-28T16:53:00 IST" duration-ms="48330">
       <class name="mavenSeleniumProject1.LoginText">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:mavenSeleniumProject1.LoginText@74fe5c40]" started-at="2022-04-27T15:22:40 IST" name="launchApp" finished-at="2022-04-27T15:22:54 IST" duration-ms="14160" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:mavenSeleniumProject1.LoginText@131774fe]" started-at="2022-04-28T16:52:12 IST" name="launchApp" finished-at="2022-04-28T16:52:29 IST" duration-ms="17188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="testcase1()[pri:0, instance:mavenSeleniumProject1.LoginText@74fe5c40]" started-at="2022-04-27T15:22:55 IST" name="testcase1" finished-at="2022-04-27T15:23:16 IST" duration-ms="21623" status="PASS">
+        <test-method signature="testcase1()[pri:0, instance:mavenSeleniumProject1.LoginText@131774fe]" started-at="2022-04-28T16:52:29 IST" name="testcase1" finished-at="2022-04-28T16:52:55 IST" duration-ms="25882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:mavenSeleniumProject1.LoginText@74fe5c40]" started-at="2022-04-27T15:23:16 IST" name="closeApp" finished-at="2022-04-27T15:23:21 IST" duration-ms="4972" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:mavenSeleniumProject1.LoginText@131774fe]" started-at="2022-04-28T16:52:55 IST" name="closeApp" finished-at="2022-04-28T16:53:00 IST" duration-ms="5006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- mavenSeleniumProject1.LoginText -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="mavenSeleniumProject1.ReadDataFromFile">
+        <test-method signature="main()[pri:0, instance:mavenSeleniumProject1.ReadDataFromFile@c8c12ac]" started-at="2022-04-28T16:52:55 IST" name="main" finished-at="2022-04-28T16:52:55 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- mavenSeleniumProject1.ReadDataFromFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
